@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>document</title>
+</head>
+
+<body>
+    <div class="album">
+        <h1 class="title">My video Album</h1>
+        <div class="grid">
+            <div class="card">
+                <p class="video-title">Italian Brainrot</p>
+                <button onclick="luajOseNdalo(this,'video1')">▶</button>
+                <button class="mute" onclick="muteOseUnmute('video1',this)">🔇</button>
+                <button class="fullscreen" onclick="fullscreen('video1')">⛶ </button>
+                <video id="video1" width="100%" src="video1.mp4"></video>
+            </div>
+            <div class="card">
+                <p class="video-title">OIIA OIIA (Spinning Cat)</p>
+                <button onclick="luajOseNdalo(this,'video2')">▶</button>
+                <button class="mute" onclick="muteOseUnmute('video2',this)">🔇</button>
+                <button class="fullscreen" onclick="fullscreen('video2')">⛶ </button>
+                <video id="video2" width="100%"  src="video2.mp4"></video>
+            </div>
+            <div class="card">
+                <p class="video-title">"Pulse of Light"</p>
+                <button onclick="luajOseNdalo(this,'video3')">▶</button>
+                <button class="mute" onclick="muteOseUnmute('video3',this)">🔇</button>
+                <button class="fullscreen" onclick="fullscreen('video3')">⛶ </button>
+                <video id="video3" width="100%" src="video3.mp4"></video>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
